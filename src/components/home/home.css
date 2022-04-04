@@ -1,0 +1,13 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+@media only screen and (max-width: 1440px) {
+    .home-container{
+        grid-template-columns: 1fr;
+    }
+    .home-container div{
+        justify-content: center;
+    }
+}
